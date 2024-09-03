@@ -50,6 +50,7 @@ LoadInv()
 
 
 task.wait(2)
+
 -- Gui to Lua
 -- Version: 3.2
 
@@ -266,7 +267,7 @@ value.Position = UDim2.new(1, 0, 0.5, 0)
 value.Size = UDim2.new(0.291511208, 0, 0.564788759, 0)
 value.Font = Enum.Font.GothamMedium
 value.Text = "Name"
-value.TextColor3 = Color3.fromRGB(0, 0, 0)
+value.TextColor3 = Color3.fromRGB(255, 255, 255)
 value.TextScaled = true
 value.TextSize = 18.000
 value.TextTransparency = 0.500
@@ -323,7 +324,7 @@ value_2.Position = UDim2.new(1, 0, 0.5, 0)
 value_2.Size = UDim2.new(0.291511208, 0, 0.564788759, 0)
 value_2.Font = Enum.Font.GothamMedium
 value_2.Text = "Display"
-value_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+value_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 value_2.TextScaled = true
 value_2.TextSize = 18.000
 value_2.TextTransparency = 0.500
@@ -380,7 +381,7 @@ value_3.Position = UDim2.new(1, 0, 0.5, 0)
 value_3.Size = UDim2.new(0.291511208, 0, 0.564788759, 0)
 value_3.Font = Enum.Font.GothamMedium
 value_3.Text = "Difficulty"
-value_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+value_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 value_3.TextScaled = true
 value_3.TextSize = 18.000
 value_3.TextTransparency = 0.500
@@ -437,7 +438,7 @@ value_4.Position = UDim2.new(1, 0, 0.5, 0)
 value_4.Size = UDim2.new(0.291511208, 0, 0.564788759, 0)
 value_4.Font = Enum.Font.GothamMedium
 value_4.Text = "Floor"
-value_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+value_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 value_4.TextScaled = true
 value_4.TextSize = 18.000
 value_4.TextTransparency = 0.500
@@ -494,7 +495,7 @@ value_5.Position = UDim2.new(1, 0, 0.5, 0)
 value_5.Size = UDim2.new(0.291511208, 0, 0.564788759, 0)
 value_5.Font = Enum.Font.GothamMedium
 value_5.Text = "Legendary Chest Amount"
-value_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+value_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 value_5.TextScaled = true
 value_5.TextSize = 18.000
 value_5.TextTransparency = 0.500
@@ -551,7 +552,7 @@ value_6.Position = UDim2.new(1, 0, 0.5, 0)
 value_6.Size = UDim2.new(0.291511208, 0, 0.564788759, 0)
 value_6.Font = Enum.Font.GothamMedium
 value_6.Text = "Mythical Chest Amount"
-value_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+value_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 value_6.TextScaled = true
 value_6.TextSize = 18.000
 value_6.TextTransparency = 0.500
@@ -724,4 +725,3 @@ local function KLTNQHD_fake_script() -- value_6.LocalScript
 end
 coroutine.wrap(KLTNQHD_fake_script)()
 end
-
