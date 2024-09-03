@@ -50,8 +50,6 @@ LoadInv()
 
 
 task.wait(2)
-end
-
 -- Gui to Lua
 -- Version: 3.2
 
@@ -725,3 +723,5 @@ local function KLTNQHD_fake_script() -- value_6.LocalScript
 	
 end
 coroutine.wrap(KLTNQHD_fake_script)()
+end
+
